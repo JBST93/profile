@@ -1,0 +1,60 @@
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family:'Lora', serif;
+  font-size: 17px
+}
+
+h1, h2, h3 {
+  color: #550C18;
+  font-size: 30px ;
+  line-height: 30px ;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.card {
+  margin: 20px;
+  padding: 0px 40px 10px 40px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#my_picture {
+  border-radius: 50%;
+  height: 130px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.facts {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  }
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+}
